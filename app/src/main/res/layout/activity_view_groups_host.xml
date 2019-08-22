@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewGroupsHostActivity"
+    android:background="@color/view_groups_bg">
+
+    <!--<TextView-->
+    <!--android:id="@+id/no_groups"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="32dp"-->
+    <!--android:layout_marginStart="32dp"-->
+    <!--android:layout_marginLeft="32dp"-->
+    <!--android:text="No Current Groups..."/>-->
+
+    <ListView
+        android:id="@+id/group_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@android:color/white"
+        android:scrollbarThumbVertical="@color/colorAccent">
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>
